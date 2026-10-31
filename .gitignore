@@ -1,0 +1,21 @@
+.venv/
+.publish/
+__pycache__/
+*.py[cod]
+build/
+dist/
+# Only the explicitly vendored protocol files are tracked. Keep the complete
+# research snapshot, original upstream GUI/artwork and archives out of Git.
+vendor/
+hardware-status.json
+hardware-*.json
+data/
+logs/
+selection.json
+settings.json
+devices.json
+*.log
+*.tmp
+*.bak
+.pytest_cache/
+
